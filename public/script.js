@@ -1,5 +1,5 @@
 // API endpoints
-const API_BASE_URL = 'http://localhost:3000/api/quiz';
+const API_BASE_URL = '/api/quiz';
 
 // Chart configurations
 const chartConfig = {
