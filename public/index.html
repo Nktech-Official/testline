@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testline Quiz Analysis</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Testline Quiz Analysis Dashboard</h1>
+        </header>
+
+        <main>
+            <section class="performance-metrics">
+                <h2>Current Performance</h2>
+                <div class="metrics-grid">
+                    <div class="metric-card">
+                        <h3>Accuracy</h3>
+                        <div id="accuracyValue" class="metric-value">-</div>
+                    </div>
+                    <div class="metric-card">
+                        <h3>Speed</h3>
+                        <div id="speedValue" class="metric-value">-</div>
+                    </div>
+                    <div class="metric-card">
+                        <h3>Score</h3>
+                        <div id="scoreValue" class="metric-value">-</div>
+                    </div>
+                    <div class="metric-card">
+                        <h3>Improvement</h3>
+                        <div id="improvementValue" class="metric-value">-</div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="charts-container">
+                <div class="chart-box">
+                    <h2>Topic Performance</h2>
+                    <canvas id="topicChart"></canvas>
+                </div>
+                <div class="chart-box">
+                    <h2>Progress Trends</h2>
+                    <canvas id="trendChart"></canvas>
+                </div>
+            </section>
+
+            <section class="rank-prediction">
+                <h2>Rank Prediction</h2>
+                <div class="prediction-container">
+                    <div class="predicted-rank">
+                        <h3>Predicted Rank</h3>
+                        <div id="predictedRank" class="rank-value">-</div>
+                    </div>
+                    <div class="confidence-interval">
+                        <h3>Confidence Interval</h3>
+                        <div id="confidenceInterval">-</div>
+                    </div>
+                    <div class="college-possibilities">
+                        <h3>College Possibilities</h3>
+                        <ul id="collegePossibilities"></ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="insights">
+                <h2>Performance Insights</h2>
+                <div class="insights-container">
+                    <div class="weak-areas">
+                        <h3>Weak Areas</h3>
+                        <ul id="weakAreasList"></ul>
+                    </div>
+                    <div class="recommendations">
+                        <h3>Recommendations</h3>
+                        <ul id="recommendationsList"></ul>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
