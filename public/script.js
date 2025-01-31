@@ -53,7 +53,7 @@ async function fetchData(endpoint) {
 function updatePerformanceMetrics(data) {
     document.getElementById('accuracyValue').textContent = `${data.currentPerformance.accuracy}%`;
     document.getElementById('speedValue').textContent = data.currentPerformance.speed;
-    document.getElementById('scoreValue').textContent = data.currentPerformance.score;
+    // document.getElementById('scoreValue').textContent = data.currentPerformance.score;
     document.getElementById('improvementValue').textContent = 
         `${(data.currentPerformance.mistakesImprovement * 100).toFixed(1)}%`;
 }
