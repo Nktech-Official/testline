@@ -3,7 +3,7 @@
 A Node.js application that analyzes quiz performance and predicts NEET ranks based on historical data. The system fetches quiz data from APIs, generates performance insights, and provides rank predictions using a probabilistic model.
 
 ## Video
-![](./public/Explanation.mp4)
+https://github.com/user-attachments/assets/1dd4a18e-6f4d-4124-ae0e-ff1452ce0ac9
 
 note:- for logic and explanation see [Explanation](./explanation.md)
 
